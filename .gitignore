@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large trajectory files — not committed (>20 MB)
+data/full_trajectories.parquet
+data/full_trajectories_3d.parquet
+data/radar_marks_noisy.parquet
